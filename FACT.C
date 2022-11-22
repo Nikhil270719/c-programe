@@ -17,3 +17,11 @@ void add()
   c=a+b;
   printf("%d",c);
 }
+void sub()
+{
+  int a,b;
+  printf("enter the a and b:");
+scanf("%d%d",&a,&b)
+  printf("sub:%d,%d",a-b);
+  return 0;
+}
